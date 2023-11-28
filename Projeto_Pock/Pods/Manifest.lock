@@ -1,0 +1,30 @@
+PODS:
+  - PromiseKit (6.18.1):
+    - PromiseKit/CorePromise (= 6.18.1)
+    - PromiseKit/Foundation (= 6.18.1)
+    - PromiseKit/UIKit (= 6.18.1)
+  - PromiseKit/CorePromise (6.18.1)
+  - PromiseKit/Foundation (6.18.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.18.1):
+    - PromiseKit/CorePromise
+  - Tanjiro (1.0.1):
+    - Tanjiro/Core (= 1.0.1)
+  - Tanjiro/Core (1.0.1)
+
+DEPENDENCIES:
+  - PromiseKit (~> 6.8)
+  - Tanjiro
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - Tanjiro
+
+SPEC CHECKSUMS:
+  PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  Tanjiro: 717b55a98bb6ccf535d032176a2b2d73ff0e03b5
+
+PODFILE CHECKSUM: 6479287b89ebc0fbb7aabeac79b34cba04396078
+
+COCOAPODS: 1.14.3
